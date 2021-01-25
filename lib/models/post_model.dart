@@ -1,19 +1,22 @@
 import 'package:facebook_clone/models/user_model.dart';
+import 'package:flutter/material.dart';
 
 class Post {
+  final User user;
+  final String caption;
+  final String timeAgo;
   final String imageUrl;
-  final User author;
-  final String title;
-  final String location;
   final int likes;
   final int comments;
+  final int shares;
 
-  Post({
-    this.imageUrl,
-    this.author,
-    this.title,
-    this.location,
-    this.likes,
-    this.comments,
+  const Post({
+    @required this.user,
+    @required this.caption,
+    @required this.timeAgo,
+    @required this.imageUrl,
+    @required this.likes,
+    @required this.comments,
+    @required this.shares,
   });
 }

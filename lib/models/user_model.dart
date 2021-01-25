@@ -1,21 +1,12 @@
 import 'package:facebook_clone/models/post_model.dart';
+import 'package:flutter/cupertino.dart';
 
 class User {
-  final String profileImageUrl;
-  final String backgroundimageUrl;
   final String name;
-  final int following;
-  final int followers;
-  final List<Post> post;
-  final List<Post> favorites;
+  final String imageUrl;
 
-  User({
-    this.profileImageUrl,
-    this.backgroundimageUrl,
-    this.name,
-    this.following,
-    this.followers,
-    this.post,
-    this.favorites,
+  const User({
+    @required this.name,
+    @required this.imageUrl,
   });
 }
