@@ -3,7 +3,7 @@ import 'package:facebook_clone/models/models.dart';
 final User currentUser = User(
   name: 'Marcus Ng',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://images.unsplash.com/photo-1477239439998-839196943351?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1914&q=80',
 );
 
 final List<User> onlineUsers = [
