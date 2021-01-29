@@ -1,7 +1,7 @@
 import 'package:facebook_clone/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Kembar',
   imageUrl:
       'https://images.unsplash.com/photo-1477239439998-839196943351?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1914&q=80',
 );
@@ -167,9 +167,10 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'yuk jalan jalan',
     timeAgo: '58m',
-    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
+    imageUrl:
+        'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=828&q=80',
     likes: 1202,
     comments: 184,
     shares: 96,
